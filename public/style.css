@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Prevent unwanted scroll */
+}
+
+body {
+    font-family: interVariable;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#contacts ul li {
+    cursor: pointer;
+}
+
+#contacts ul li:hover {
+    background-color: #e9ecef;
+}
+
+#chat .flex-grow-1 {
+    overflow-y: auto;
+}
+
+span.rounded {
+    display: inline-block;
+    max-width: 75%;
+}
+
+.user-pfp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 20px;
+}
