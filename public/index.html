@@ -49,37 +49,32 @@
     <!-- Main -->
 
     <div class="container-fluid p-0">
-        <div class="row no-gutters" style="height: calc(100vh - 56px);"> <!-- Subtracting navbar height -->
+        <div class="row g-0" style="height: calc(100vh - 56px);"> <!-- Subtracting navbar height -->
             <!-- Sidebar / Contacts List -->
-            <div class="col-md-4 col-lg-3 border-end bg-light overflow-auto" id="contacts">
-                <div class="d-flex justify-content-between align-items-center px-3 py-3">
-                    <h4 class="fw-bold mb-0">Chats</h4>
-                    <button class="btn btn-primary d-flex align-items-center gap-2 rounded-pill px-3 py-1"
-                        style="font-size: 1rem;">
-                        <span>
-                            <bold>New Chat +
-                        </span>
-                    </button>
+            <div class="col-md-4 col-lg-3 bg-dark overflow-auto" id="contacts">
+                <div class="d-flex align-items-center justify-content-between px-3 py-2 border-bottom"
+                    style="border-color: #ccc; height: 60px;">
+                    <h4 class="mb-0 text-white">Chats</h4>
+                    <button class="btn btn-primary btn-sm">New Chat +</button>
                 </div>
-                <hr class="m-0 " />
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item user-name">
+                <ul class="list-group list-group-flush bg-dark ">
+                    <li class="list-group-item user-name bg-dark text-white">
                         <img src="img/placeholder-user.jpg" class="user-pfp">
                         John Doe
                     </li>
-                    <li class="list-group-item user-name">
+                    <li class="list-group-item user-name bg-dark text-white">
                         <img src="img/placeholder-user.jpg" class="user-pfp">
                         Jane Smith
                     </li>
-                    <li class="list-group-item user-name">
+                    <li class="list-group-item user-name bg-dark text-white">
                         <img src="img/placeholder-user.jpg" class="user-pfp">
                         John Doe
                     </li>
-                    <li class="list-group-item user-name">
+                    <li class="list-group-item user-name bg-dark text-white ">
                         <img src="img/placeholder-user.jpg" class="user-pfp">
                         Alice Johnson
                     </li>
-                    <li class="list-group-item user-name">
+                    <li class="list-group-item user-name bg-dark text-white">
                         <img src="img/placeholder-user.jpg" class="user-pfp">
                         Bob Brown
                     </li>
@@ -90,16 +85,17 @@
 
             <!-- Chat Area -->
             <div class="col-md-8 col-lg-9 d-flex flex-column" id="chat">
-                <div class="p-3 border-bottom bg-white">
-                    <strong>Chat with John Doe</strong>
+                <div class="d-flex align-items-center px-3 py-2 border-bottom bg-dark"
+                    style="border-color: #ccc; height: 60px;">
+                    <h4 class="mb-0 text-white">Chat with John Doe</h4>
                 </div>
-                <div class="flex-grow-1 p-3 overflow-auto" style="background-color: #f8f9fa;">
-                    <div class="mb-2"><span class="bg-primary text-white p-2 rounded">Hi!</span></div>
-                    <div class="text-end mb-2"><span class="bg-secondary text-white p-2 rounded">Hello there!</span>
+                <div class="flex-grow-1 p-3 overflow-auto bg-dark">
+                    <div class="mb-2"><span class="bg-primary text-white p-2 rounded">Bhai tumko pta h ?</span></div>
+                    <div class="text-end mb-2"><span class="bg-secondary text-white p-2 rounded">kya h ?</span>
                     </div>
                     <!-- More messages -->
                 </div>
-                <div class="p-3 border-top bg-white">
+                <div class="p-3 border-top bg-dark">
                     <div class="input-group">
                         <textarea class="form-control" placeholder="Type a message..."></textarea>
                         <button class="btn btn-primary" type="button">Send</button>

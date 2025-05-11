@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* Prevent unwanted scroll */
+    color: white;
 }
 
 body {
@@ -15,12 +15,20 @@ body {
     height: 100%;
 }
 
-#contacts ul li {
-    cursor: pointer;
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
 }
 
-#contacts ul li:hover {
-    background-color: #e9ecef;
+#contacts,
+#chat {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+#contacts ul li {
+    cursor: pointer;
 }
 
 #chat .flex-grow-1 {
@@ -40,4 +48,15 @@ span.rounded {
 
 .user-name {
     font-size: 20px;
+}
+
+#contacts {
+    border-right: 1px solid #ccc;
+}
+
+.list-group-item.user-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
 }
